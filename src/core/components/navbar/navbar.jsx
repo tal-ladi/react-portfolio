@@ -19,7 +19,7 @@ export default function Navbar() {
 
     const footerElement = (
         <div className="inline-flex gap-3 mr-2">
-            <a className='pi pi-whatsapp text-color no-underline' href='https://wa.me/9726979295'/>
+            <a className='pi pi-whatsapp text-color no-underline' href='https://wa.me/972526979295'/>
             <a className='pi pi-phone text-color no-underline' href='tel:052-697-9295' />
             <a className='pi pi-linkedin text-color no-underline' href="https://www.linkedin.com/in/tal-ladijinsky/"/>
         </div>
@@ -48,12 +48,12 @@ export default function Navbar() {
         {
             label: 'Home',
             icon: 'pi pi-fw pi-home',
-            url: ROUTES.HOME
+            url: '/react-portfolio/#' + ROUTES.HOME
         },
         {
             label: 'Skills',
             icon: 'pi pi-fw pi-code',
-            url: ROUTES.SKILLS
+            url: '/react-portfolio/#' + ROUTES.SKILLS
         },
         {
             label: 'Work Experience',
@@ -75,7 +75,7 @@ export default function Navbar() {
             <div className="card">
                 <Menubar className='h-4rem' model={items} end={logo}/>
             </div>
-            <Dialog className='lg:w-3 md:w-5 w-7' visible={visible} modal
+            <Dialog className='lg:w-3 md:w-5 w-8' visible={visible} modal
                     header={headerElement} footer={footerElement} onHide={() => setVisible(false)}>
                     <div className='m-0 text-base sm:text-sm'>
                         <div className='mb-3'>Phone : 0526979295</div>

@@ -4,7 +4,7 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import './App.css';
 import React from "react";
-import {Route, Routes} from "react-router-dom";
+import {Navigate, Route, Routes} from "react-router-dom";
 import {ROUTES} from "./core/models/routes";
 import Home from "./features/home/home";
 import Navbar from "./core/components/navbar/navbar";
@@ -15,6 +15,7 @@ function App() {
         <div className='App'>
             <Navbar/>
             <Routes>
+                <Route path="*" element={<Navigate to={ROUTES.HOME} replace={true} />}/>
                 <Route path={ROUTES.HOME} element={<Home/>}/>
                 <Route path={ROUTES.SKILLS} element={<Skills/>}/>
             </Routes>

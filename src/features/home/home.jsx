@@ -7,7 +7,7 @@ export default function Home() {
                 <div className='flex font-bold lg:text-4xl md:text-3xl text-base'>Building Dreams to Digital
                     Experiences
                 </div>
-                <div className='flex mt-2 text-sm lg:text-base text-center'>
+                <div className='flex mt-2 mr-2 text-sm lg:text-base text-center'>
                     Passionate Web Developer <br className="line-break"/>
                     Transforming ideas into seamless and stunning web solutions
                 </div>
