@@ -18,7 +18,7 @@ export default function Skills() {
         {
             key: '0',
             label: 'Frontend',
-            icon: 'pi pi-fw pi-palette',
+            icon: 'pi pi-fw pi-desktop',
             items: [
                 {
                     key: '0_1',
@@ -55,7 +55,7 @@ export default function Skills() {
         {
             key: '1',
             label: 'Backend',
-            icon: 'pi pi-fw pi-desktop',
+            icon: 'pi pi-fw pi-server',
             items: [
                 {
                     key: '1_1',
