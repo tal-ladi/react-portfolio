@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.a2c8f1d8.css",
+    "main.js": "/react-portfolio/static/js/main.bb046d98.js",
+    "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
+    "static/media/primeicons.svg": "/react-portfolio/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/Inter-italic.var.woff2?v=3.19": "/react-portfolio/static/media/Inter-italic.var.30807be7abc48ba8c73c.woff2",
+    "static/media/Inter-roman.var.woff2?v=3.19": "/react-portfolio/static/media/Inter-roman.var.ba4caefcdf5b36b438db.woff2",
+    "static/media/primeicons.eot": "/react-portfolio/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/react-portfolio/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/react-portfolio/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/primeicons.woff2": "/react-portfolio/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "index.html": "/react-portfolio/index.html",
+    "main.a2c8f1d8.css.map": "/react-portfolio/static/css/main.a2c8f1d8.css.map",
+    "main.bb046d98.js.map": "/react-portfolio/static/js/main.bb046d98.js.map",
+    "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2c8f1d8.css",
+    "static/js/main.bb046d98.js"
+  ]
+}
