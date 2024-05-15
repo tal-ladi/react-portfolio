@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import 'primeflex/primeflex.css';
+import 'primereact/resources/themes/lara-dark-purple/theme.css';
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
 import './App.css';
+import React from "react";
+import {Route, Routes} from "react-router-dom";
+import {ROUTES} from "./core/models/routes";
+import Home from "./features/home/home";
+import Navbar from "./core/components/navbar/navbar";
+import Skills from "./features/skills/skills";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='App'>
+            <Navbar/>
+            <Routes>
+                <Route path={ROUTES.HOME} element={<Home/>}/>
+                <Route path={ROUTES.SKILLS} element={<Skills/>}/>
+            </Routes>
+        </div>
+    )
+        ;
 }
 
 export default App;

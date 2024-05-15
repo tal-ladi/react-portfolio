@@ -1,0 +1,20 @@
+
+.line-break {
+    display: none;
+}
+
+.pop {
+    max-width: 500px;
+}
+
+@media (max-width: 768px) {
+    .line-break {
+        display: block;
+        width: 300px;
+    }
+
+    .pop {
+        width: 200px;
+        align-self: baseline;
+    }
+}
