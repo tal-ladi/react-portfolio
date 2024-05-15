@@ -36,17 +36,17 @@ export default function Skills() {
                     template: (item) => menuItemRenderer(item)
                 },
                 {
-                    key: '0_3',
+                    key: '0_4',
                     label: 'TypeScript',
                     template: (item) => menuItemRenderer(item)
                 },
                 {
-                    key: '0_3',
+                    key: '0_5',
                     label: 'HTML',
                     template: (item) => menuItemRenderer(item, 'html5')
                 },
                 {
-                    key: '0_3',
+                    key: '0_6',
                     label: 'CSS',
                     template: (item) => menuItemRenderer(item, 'css3')
                 },
